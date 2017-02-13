@@ -3,13 +3,16 @@
 	<title>Testing</title>
 </head>
 <body>
-	<button onclick="click()">Click</button>
-	<script type="text/javascript">
-	   function click() {
-		  debugger;
-		window.open("window.open('http://www.facebook.com/sharer.php?', "test", "");
-	}
-	</script>
+<button onclick="myFunction()">Click me</button>
+	<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+    window.open("window.open('http://www.facebook.com/sharer.php?', "test", "");
+
+}
+</script>
 
 </body>
 </html>

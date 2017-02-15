@@ -7,11 +7,9 @@
 	<p id="demo"></p>
 
 <script>
+document.getElementById("demo").innerHTML = "Where did i come from ==> " + document.referrer;
 function myFunction() {
-	debugger;
-    document.getElementById("demo").innerHTML = "Where did i come from ==> " + document.referrer;
     window.open('http://www.facebook.com/sharer.php?p[url]=' + document.referrer, "test", "");
-
 }
 </script>
 
